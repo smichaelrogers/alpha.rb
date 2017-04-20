@@ -104,8 +104,8 @@ module Alpha
       {
         fen: fen,
         nodes: nodes,
-        clock: clock,
-        nps: (nodes / clock.to_f).round(2),
+        clock: clock.round(2),
+        nps: (nodes / clock.to_f).round,
         board: board,
         move: {
           from: NOTATION[move.from],
