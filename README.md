@@ -43,7 +43,7 @@ Alpha.autoplay(fen: '1nbqkbn1/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/1NBQKBN1 b - - 1 2',
  => #<Alpha::Search:0x007fe84aa8e140 @fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", @height=6, @moves=[nil, nil, nil, nil, nil, nil, nil, nil, nil, nil], @colors=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], @pieces=[3, 1, 2, 4, 5, 2, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 2, 4, 5, 2, 1, 3], @kings=[60, 4], @turn=1, @mx=0, @mn=1>
  ```
 
-### Alpha::Search.run
+#### Alpha::Search.run
 ```shell
 2.3.1 :007 > result = s.run
  => #<struct Alpha::Result fen="rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b - - 0 1", move=#<struct Alpha::Move from=52, to=36, piece=0, target=6>, nodes=43680, clock=3.350109, board="\n ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜\n ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟\n _ _ _ _ _ _ _ _\n _ _ _ _ _ _ _ _\n _ _ _ _ ♙ _ _ _\n _ _ _ _ _ _ _ _\n ♙ ♙ ♙ ♙ _ ♙ ♙ ♙\n ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖">

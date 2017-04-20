@@ -1,0 +1,76 @@
+Measure Mode: wall_time
+Thread ID: 70176838253060
+Fiber ID: 70176839450340
+Total: 1.713724
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  5.39      0.125     0.092     0.000     0.032   124602   <Class::Alpha::Move>#new
+  4.22      0.356     0.072     0.000     0.283    25179   Alpha::Search#make_move
+  3.68      0.063     0.063     0.000     0.000   376586   Fixnum#-@
+  3.61      0.062     0.062     0.000     0.000     4581   Array#select
+  3.40      0.103     0.058     0.000     0.045    25175   Alpha::Search#unmake_move
+  1.89      0.032     0.032     0.000     0.000   124606   Struct#initialize
+  1.73      0.030     0.030     0.000     0.000   124602   Kernel#freeze
+  1.65      0.028     0.028     0.000     0.000   125887   Alpha::Move#piece
+  1.41      0.024     0.024     0.000     0.000   112572   Alpha::Move#to
+  1.23      0.021     0.021     0.000     0.000   101150   Alpha::Move#from
+  1.14      0.236     0.020     0.000     0.216    25179   Alpha::Search#in_check?
+  0.91      0.627     0.016     0.000     0.611    19398   Enumerable#inject
+  0.70      0.012     0.012     0.000     0.000    50350   Alpha::Move#target
+  0.55      0.636     0.009     0.000     0.627    19398   Alpha::Search#evaluate
+  0.52      0.009     0.009     0.000     0.000    43015   Fixnum#>>
+  0.43      0.007     0.007     0.000     0.000    32039   Fixnum#abs
+  0.22      0.533     0.004     0.000     0.530     4581   Kernel#tap
+  0.21      0.530     0.004     0.000     0.526     4581   Alpha::Search#each_move
+  0.03      0.001     0.001     0.000     0.000     2876   Fixnum#===
+  0.03      0.002     0.000     0.000     0.001       80  *Array#map
+  0.02      1.711     0.000     0.000     1.711    65202  *Array#each
+  0.01      0.000     0.000     0.000     0.000       36   String#gsub
+  0.01      0.000     0.000     0.000     0.000      384   String#upcase
+  0.01      0.000     0.000     0.000     0.000      256   Alpha::Utils#ascii
+  0.01      0.000     0.000     0.000     0.000      256   Alpha::Utils#utf8
+  0.01      0.000     0.000     0.000     0.000       32   String#to_i
+  0.01      0.000     0.000     0.000     0.000      516   String#[]
+  0.01      0.000     0.000     0.000     0.000       72   Array#join
+  0.01      0.000     0.000     0.000     0.000        8   IO#write
+  0.01      0.000     0.000     0.000     0.000      256   String#index
+  0.00      1.713     0.000     0.000     1.713        4   Alpha::Search#run
+  0.00      0.001     0.000     0.000     0.001        4   Alpha::Utils#parse_position
+  0.00      1.714     0.000     0.000     1.714        1   Object#profile
+  0.00      1.714     0.000     0.000     1.714    25180  *Integer#times
+  0.00      0.000     0.000     0.000     0.000        4   String#chars
+  0.00      0.001     0.000     0.000     0.001        4   Alpha::Search#initialize
+  0.00      0.001     0.000     0.000     0.001        4   Alpha::Utils#generate_fen
+  0.00      0.000     0.000     0.000     0.000        8   <Class::Time>#now
+  0.00      0.000     0.000     0.000     0.000        4   String#delete
+  0.00      0.000     0.000     0.000     0.000        4   Hash#merge
+  0.00      0.000     0.000     0.000     0.000        4   String#split
+  0.00      0.000     0.000     0.000     0.000       38   Fixnum#to_s
+  0.00      0.000     0.000     0.000     0.000       28   String#*
+  0.00      0.000     0.000     0.000     0.000        4   Hash#initialize_copy
+  0.00      0.000     0.000     0.000     0.000        4   Time#-
+  0.00      0.000     0.000     0.000     0.000       34   String#length
+  0.00      0.000     0.000     0.000     0.000        8   Array#index
+  0.00      0.001     0.000     0.000     0.001        8  *Class#new
+  0.00      0.000     0.000     0.000     0.000        8   Time#initialize
+  0.00      0.000     0.000     0.000     0.000        4   Kernel#puts
+  0.00      1.711     0.000     0.000     1.711     4581  *Alpha::Search#generate_moves
+  0.00      0.001     0.000     0.000     0.001        4   Alpha::Utils#board
+  0.00      1.711     0.000     0.000     1.711    23979  *Alpha::Search#search
+  0.00      0.000     0.000     0.000     0.000        4   <Class::Alpha::Result>#new
+  0.00      0.000     0.000     0.000     0.000        4   IO#puts
+  0.00      0.000     0.000     0.000     0.000        4   Array#initialize
+  0.00      0.000     0.000     0.000     0.000        4   Alpha::Result#board
+  0.00      0.000     0.000     0.000     0.000        4   Alpha::Result#fen
+  0.00      0.000     0.000     0.000     0.000        4   Array#last
+  0.00      0.000     0.000     0.000     0.000        4   Kernel#initialize_dup
+  0.00      1.714     0.000     0.000     1.714        1   <Module::Alpha>#autoplay
+  0.00      0.000     0.000     0.000     0.000        4   Numeric#quo
+  0.00      0.000     0.000     0.000     0.000        8   Fixnum#+
+  0.00      0.000     0.000     0.000     0.000        9   Hash#fetch
+  0.00      0.000     0.000     0.000     0.000        4   Fixnum#fdiv
+  0.00      0.000     0.000     0.000     0.000        4   Fixnum#^
+  0.00      0.000     0.000     0.000     0.000        4   Fixnum#-
+
+* indicates recursively called methods

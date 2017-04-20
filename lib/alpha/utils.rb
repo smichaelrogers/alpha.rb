@@ -26,7 +26,8 @@ module Alpha
         join('/') + " #{COLORS[@mx]} - - 0 #{@turn}"
     end
 
-    # parse a given fen string, default: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
+    # Parse a FEN position notation string
+    #   default: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
     def parse_position(fen)
       chunks  = (fen || FEN_INITIAL).split
       squares = chunks[0].gsub(/[1-8]/) { |s| '_' * s.to_i }.delete('/').chars
